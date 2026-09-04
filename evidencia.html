@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="color: rgb(red, green, blue); background-color: gray;">
+    <header>
+        🎮 ★ TOP 10 VIDEOJUEGOS ★ 🎮  <br>La mejor página de videojuegos <br>
+        <nav>
+            Top 10 juegos <br>
+            Recomendacion <br>
+            Vota <br>
+             <hr>
+
+              <b>
+                 En esta página encontrarás una selección de los 10 videojuegos más increíbles,<br>
+                 elegidos por su popularidad, diversión e impacto en la historia de los videojuegos <br>
+                 Aquí podrás conocer un poco sobre cada juego, su año de lanzamiento, género y nuestra calificación.
+              </b>
+        </nav>
+   
+    </header>
+
+    <main>
+        <mark>
+            <ol>
+            Empezemos con el Ranking de los mejores videojuegos de este 2008
+
+            <h1>Metal gear solid 4:Guns of the Patriots</h1>
+            <img src="Multimedia/METAL GEAR SOLID.jpg" alt="Metal gear solid 4" width="200">
+            <h1>Persona 4</h1>
+            <img src="Multimedia/persona 4.jpg" alt="Persona 4" width="200">
+            <h1>Fallout 3</h1>
+            <img src="Multimedia/fallout 3.jpg" alt="Fallout 3" width="200">
+            <h1>Grand Theft Auto IV</h1>
+            <img src="Multimedia/gta 4.jpg" alt="GTAIV" width="200">
+            <h1>Dead Space</h1>
+            <img src="Multimedia/DEAD SPACE.jpg" alt="DS" width="200">
+            <h1>Gears of War 2</h1>
+            <img src="Multimedia/Gow2.jpg" alt="gears" width="200">
+            <h1>Super Smash Bros Brawl</h1>
+            <img src="Multimedia/SSBB.jpg" alt="SSBB" width="200">
+            <h1>Pokemon Edición Platino</h1>
+            <img src="Multimedia/pokemon platino.png" alt="Platino" width="200">
+            </ol>
+        </mark>
+    </main>
+    <hr>
+    <table border="1">
+        <caption> Género y Calificación de los titulos</caption>
+        <thead>
+            <tr>
+                <th>Videojuego</th>
+                <th>Género</th>
+                <th>Calificación</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Metal Gear solid: Guns of the Patriots</td>
+                <td>Acción / Sigilo.</td>
+                <td>9.6</td>
+            </tr>
+            <tr>
+                <td>Persona 4</td>
+                <td>RPG / JRPG</td>
+                <td>9.1</td>
+            </tr>
+            <tr>
+                <td>Fallout 3</td>
+                <td>RPG / Acción</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <td>Grand Theft Auto IV</td>
+                <td>Acción / Mundo abierto</td>
+                <td>8.8</td>
+            </tr>
+            <tr>
+                <td>Dead Space</td>
+                <td>Survival Horror / Acción</td>
+                <td>8.8</td>
+            </tr>
+            <tr>
+                <td>Gears of War</td>
+                <td>Shooter en tercera persona</td>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <td>Super Smash Bros Brawl</td>
+                <td>Lucha</td>
+                <td>8.6</td>
+            </tr>
+            <tr>
+                <td>Pokemon Edicion Platino</td>
+                <td>RPG / JRPG</td>
+                <td>8.5</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <hr>
+    <main>
+        <p>Tambien te dejamos está recomendacion de este nuevo juego <br>Left 4 Dead es un videojuego de acción y supervivencia donde cuatro jugadores deben trabajar en equipo para sobrevivir a una invasión de zombis y llegar a un lugar seguro.</p>
+        <p>aqui un trailer para que le heches un vistazo a este juego</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qvOGCZPDv7g?si=LXDRUrslxdIlJ9-n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </main>
+    <hr>
+    <form action="/procesar" method="post">
+        <fieldset>
+            <legend>¿Cuál es tu videojuego favorito?</legend>
+            <label for="Username">Username</label>
+            <input type="text" name="Username" id="username"><br><br>
+
+            <label for="videojuego favorito?">videojuego favorito</label><br>
+            <textarea name="videojuego favorito" id="videojuego favorito"></textarea><br><br>
+
+            <label for="¿En qué plataforma juegas principalmente?">¿En qué plataforma juegas principalmente?</label>
+            <select name="¿En qué plataforma juegas principalmente?" id="¿En qué plataforma juegas principalmente?">
+                <optgroup>
+                    <option value="Xbox 360">xbox 360</option>
+                    <option value="Playstation 3">Playstation 3</option>
+                    <option value="Wii">Wii</option>
+                    <option value="Nintendo DS">Nintendo DS</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="¿Qué videojuego agregarías al Top">¿Qué videojuego agregarias al TOP</label>
+            <textarea name="¿Qué videojuego agregarías al Top" id="¿Qué videojuego agregarías al Top"></textarea> <br>
+
+            <button type="button" >Aceptar</button>
+            <input type="submit" value="Enviar">
+            <input type="reset"  value="limpiar">
+        </fieldset>
+    </form>    
+</body>
+</html>
